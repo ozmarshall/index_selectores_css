@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: arial;
+        }
+        
+        a{
+            color: honeydew;
+        }
+
+        header {
+            background: red;
+            padding: 20px;
+            border: 20px solid blue;
+        }
+
+
+
+        /* selector descendiente */
+        header a{
+            color: orange;
+        }
+
+        /* selector con clase */
+        header .logo {
+            font-size: 30px;
+            color: #fff;
+        }
+
+        main a {
+            color: violet;
+        }
+
+        main  section a {
+            color: green;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a class="logo" href="">LOGO</a>
+        <nav>
+            <ul>
+                <li><a href="">quiens</a></li>
+                <li><a href="">pot</a></li>
+                <li><a href="">cons</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <a href="">enlace aside</a>
+            <a href="">link</a>
+        </aside>
+        <section class="section">
+            <a href="">enlace selector</a>
+        </section>
+    </main>
+    <footer>
+        <a href="">footer</a>
+    </footer>
+
+    
+</body>
+</html>
